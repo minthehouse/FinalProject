@@ -7,6 +7,12 @@ using System.IO;
 
 public class GameManager : MonoBehaviour
 {
+    public int stage;
+    public Animator stageAnim;
+    public Animator clearAnim;
+    public Animator fadeAnim;
+    public Transform playerPos;
+
     public string[] enemyObjs;
     public Transform[] spawnPoints;
 
@@ -28,7 +34,40 @@ public class GameManager : MonoBehaviour
     {
         spawnList = new List<Spawn>();
         enemyObjs = new string[]{ "EnemyS", "EnemyM", "EnemyL","EnemyB"};
+        StageStart();
+    }
+
+    public void StageStart()
+    {
+        //Stage UI Load
+        stageAnim.SetTrigger("On");
+        stageAnim.GetComponent<Text>().text = "STAGE " + stage + "\nSTART";
+        clearAnim.GetComponent<Text>().text = "STAGE " + stage + "\nCLEAR";
+
+        //Enemy Spawn File Read
         ReadSpawnFile();
+
+        //Fade In
+        fadeAnim.SetTrigger("In");
+    }
+
+    public void StageEnd()
+    {
+        //Clear UI Load
+        clearAnim.SetTrigger("On");
+
+        //Fade Out
+        fadeAnim.SetTrigger("Out");
+
+        //Player Repos
+        player.transform.position = playerPos.position;
+
+        //Stage Increasement
+        stage++;
+        if(stage >2)                        //Depending on the number of stages, end game or keep going !
+            Invoke("GameOver", 6);                             
+        else
+            Invoke("StageStart", 5);
     }
 
     void ReadSpawnFile()
@@ -37,7 +76,7 @@ public class GameManager : MonoBehaviour
         spawnIndex =0;
         spawnEnd = false;
 
-        TextAsset textFile = Resources.Load("Stage 0") as TextAsset;
+        TextAsset textFile = Resources.Load("Stage " + stage) as TextAsset;
         StringReader stringReader = new StringReader(textFile.text);
 
         while(stringReader != null)
@@ -104,6 +143,7 @@ public class GameManager : MonoBehaviour
         Rigidbody2D rigid = enemy.GetComponent<Rigidbody2D>();
         Enemy enemyLogic = enemy.GetComponent<Enemy>();
         enemyLogic.player = player;
+        enemyLogic.gameManager = this;
         enemyLogic.objectManager = objectManager;
 
         if (enemyPoint == 5 || enemyPoint == 6){            //Right Spawn
@@ -166,6 +206,15 @@ public class GameManager : MonoBehaviour
 
         Player playerLogic = player.GetComponent<Player>();
         playerLogic.isHit = false;
+    }
+
+    public void CallExplosion(Vector3 pos, string type)
+    {
+        GameObject explosion = objectManager.MakeObj("Explosion");
+        Explosion explosionLogic = explosion.GetComponent<Explosion>();
+
+        explosion.transform.position = pos;
+        explosionLogic.StartExplosion(type);
     }
 
     public void GameOver()
