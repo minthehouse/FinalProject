@@ -18,10 +18,11 @@ public class Enemy : MonoBehaviour
     public GameObject itemCoin;
     public GameObject itemPower;
     public GameObject itemBoom;
-
     public GameObject player;
     public ObjectManager objectManager;
     public GameManager gameManager;
+
+ 
 
     SpriteRenderer spriteRenderer;
     Animator anim;
@@ -91,6 +92,8 @@ public class Enemy : MonoBehaviour
 
     void FireFoward()
     {
+        if (health <= 0) 
+            return;
         //Fire 4 bullets forward
         GameObject bulletR = objectManager.MakeObj("BulletBossA");
         bulletR.transform.position = transform.position + Vector3.right*0.3f;
@@ -123,6 +126,8 @@ public class Enemy : MonoBehaviour
 
     void FireShot()
     {
+        if (health <= 0) 
+            return;
         for(int index=0; index<5; index++){
             GameObject bullet = objectManager.MakeObj("BulletEnemyB");
             bullet.transform.position = transform.position; 
@@ -144,6 +149,8 @@ public class Enemy : MonoBehaviour
 
     void FireArc()
     {
+        if (health <= 0) 
+            return;
         //Fire Arc Continue Fire
         GameObject bullet = objectManager.MakeObj("BulletEnemyA");
         bullet.transform.position = transform.position;
@@ -164,6 +171,8 @@ public class Enemy : MonoBehaviour
 
     void FireAround()
     {
+        if (health <= 0) 
+            return;
         //Fire Around
         int roundNumA =50;
         int roundNumB =40;
@@ -248,6 +257,7 @@ public class Enemy : MonoBehaviour
             return;
             
         health -= dmg;
+
         if(enemyName =="B")
         {
             anim.SetTrigger("OnHit");
@@ -285,10 +295,12 @@ public class Enemy : MonoBehaviour
             gameObject.SetActive(false);
             transform.rotation = Quaternion.identity;
             gameManager.CallExplosion(transform.position, enemyName);
-
+            
             //Boss Kill
             if(enemyName =="B")
+                //Invoke("Unbeatable", 3);
                 gameManager.StageEnd();
+            
         }
     }
 
