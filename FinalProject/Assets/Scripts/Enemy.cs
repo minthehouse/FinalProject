@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
     {
         spriteRenderer =  GetComponent<SpriteRenderer>();
         
-        if((enemyName =="B")||(enemyName =="B2"))
+        if((enemyName =="B")||(enemyName =="B2")||(enemyName =="B3"))
             anim = GetComponent<Animator>();
         
     }
@@ -78,7 +78,11 @@ public class Enemy : MonoBehaviour
                 health =200;
                 Invoke("Stop",2);
                 break;
-        
+            case "B3":
+                health =200;
+                Invoke("Stop",2);
+                break;
+            
         }
     }
 
@@ -228,8 +232,9 @@ public class Enemy : MonoBehaviour
 
      void Update()
     {
-        if ((enemyName =="B")||(enemyName =="B2"))
+        if ((enemyName =="B")||(enemyName =="B2")||(enemyName =="B3"))
             return;
+
 
         Fire();
         Reload();
@@ -334,11 +339,11 @@ public class Enemy : MonoBehaviour
             
         health -= dmg;
 
-        if ((enemyName =="B")||(enemyName =="B2"))
+        if ((enemyName =="B")||(enemyName =="B2")||(enemyName =="B3"))
         {
             anim.SetTrigger("OnHit");
         }
-
+        
 
         else
         {
@@ -352,7 +357,7 @@ public class Enemy : MonoBehaviour
             playerLogic.score += enemyScore;
 
             //Random Ratio Item Drop
-            int ran = (enemyName == "B") ? 0 : Random.Range(0,10);    //Boss will not drop any item
+            int ran = ((enemyName == "B")||(enemyName =="B2")||(enemyName =="B3")) ? 0 : Random.Range(0,10);    //Boss will not drop any item
             
 
             if(ran < 3){

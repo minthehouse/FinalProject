@@ -1,0 +1,3464 @@
+fileFormatVersion: 2
+guid: ac0677e2dcf93584d94b2e4be7994255
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7500049792388844084
+    second: pngkey.com-gameboy-color-png-1471298_0
+  - first:
+      213: 1904132206660340056
+    second: pngkey.com-gameboy-color-png-1471298_1
+  - first:
+      213: 4082246845750294242
+    second: pngkey.com-gameboy-color-png-1471298_2
+  - first:
+      213: -3644441878114569811
+    second: pngkey.com-gameboy-color-png-1471298_3
+  - first:
+      213: 8762072828709154801
+    second: pngkey.com-gameboy-color-png-1471298_4
+  - first:
+      213: 7092262154686933350
+    second: pngkey.com-gameboy-color-png-1471298_5
+  - first:
+      213: -2890804467608698666
+    second: pngkey.com-gameboy-color-png-1471298_6
+  - first:
+      213: -5826692334922215168
+    second: pngkey.com-gameboy-color-png-1471298_7
+  - first:
+      213: -1710056637573882202
+    second: pngkey.com-gameboy-color-png-1471298_8
+  - first:
+      213: 5975690054068197238
+    second: pngkey.com-gameboy-color-png-1471298_9
+  - first:
+      213: 6453402667586670147
+    second: pngkey.com-gameboy-color-png-1471298_10
+  - first:
+      213: -1455573770759569674
+    second: pngkey.com-gameboy-color-png-1471298_11
+  - first:
+      213: -962660262671982379
+    second: pngkey.com-gameboy-color-png-1471298_12
+  - first:
+      213: -4823537699817688547
+    second: pngkey.com-gameboy-color-png-1471298_13
+  - first:
+      213: -4730088105230273975
+    second: pngkey.com-gameboy-color-png-1471298_14
+  - first:
+      213: -2416660794688315376
+    second: pngkey.com-gameboy-color-png-1471298_15
+  - first:
+      213: 8272458859781991071
+    second: pngkey.com-gameboy-color-png-1471298_16
+  - first:
+      213: 5972895838215410782
+    second: pngkey.com-gameboy-color-png-1471298_17
+  - first:
+      213: 8540675812321913863
+    second: pngkey.com-gameboy-color-png-1471298_18
+  - first:
+      213: 1279152515568331150
+    second: pngkey.com-gameboy-color-png-1471298_19
+  - first:
+      213: -296490515800339265
+    second: pngkey.com-gameboy-color-png-1471298_20
+  - first:
+      213: 1291944913151452415
+    second: pngkey.com-gameboy-color-png-1471298_21
+  - first:
+      213: -6092849747513456224
+    second: pngkey.com-gameboy-color-png-1471298_22
+  - first:
+      213: 6795540602629882647
+    second: pngkey.com-gameboy-color-png-1471298_23
+  - first:
+      213: -2348622479700956815
+    second: pngkey.com-gameboy-color-png-1471298_24
+  - first:
+      213: 847708531171421572
+    second: pngkey.com-gameboy-color-png-1471298_25
+  - first:
+      213: 2632477908764483048
+    second: pngkey.com-gameboy-color-png-1471298_26
+  - first:
+      213: -4368369009013535750
+    second: pngkey.com-gameboy-color-png-1471298_27
+  - first:
+      213: 4540486699104131853
+    second: pngkey.com-gameboy-color-png-1471298_28
+  - first:
+      213: 1611588917309889210
+    second: pngkey.com-gameboy-color-png-1471298_29
+  - first:
+      213: -3470771986058456516
+    second: pngkey.com-gameboy-color-png-1471298_30
+  - first:
+      213: 2495437138789017932
+    second: pngkey.com-gameboy-color-png-1471298_31
+  - first:
+      213: -8909009461423590418
+    second: pngkey.com-gameboy-color-png-1471298_32
+  - first:
+      213: 2526548516980352562
+    second: pngkey.com-gameboy-color-png-1471298_33
+  - first:
+      213: 2508919081240882438
+    second: pngkey.com-gameboy-color-png-1471298_34
+  - first:
+      213: 4123517975032676802
+    second: pngkey.com-gameboy-color-png-1471298_35
+  - first:
+      213: 4398731747949941196
+    second: pngkey.com-gameboy-color-png-1471298_36
+  - first:
+      213: 635344345580077310
+    second: pngkey.com-gameboy-color-png-1471298_37
+  - first:
+      213: 1576585121439459577
+    second: pngkey.com-gameboy-color-png-1471298_38
+  - first:
+      213: -7665029430818875548
+    second: pngkey.com-gameboy-color-png-1471298_39
+  - first:
+      213: -1717770116231706344
+    second: pngkey.com-gameboy-color-png-1471298_40
+  - first:
+      213: -6045993512298326216
+    second: pngkey.com-gameboy-color-png-1471298_41
+  - first:
+      213: -8557369422474606966
+    second: pngkey.com-gameboy-color-png-1471298_42
+  - first:
+      213: -8994476006866555517
+    second: pngkey.com-gameboy-color-png-1471298_43
+  - first:
+      213: 2901720179866866096
+    second: pngkey.com-gameboy-color-png-1471298_44
+  - first:
+      213: -4791471316756510737
+    second: pngkey.com-gameboy-color-png-1471298_45
+  - first:
+      213: 8792991658997352645
+    second: pngkey.com-gameboy-color-png-1471298_46
+  - first:
+      213: -6803886108525084672
+    second: pngkey.com-gameboy-color-png-1471298_47
+  - first:
+      213: 6266516097235897168
+    second: pngkey.com-gameboy-color-png-1471298_48
+  - first:
+      213: -5778589911720343926
+    second: pngkey.com-gameboy-color-png-1471298_49
+  - first:
+      213: 1010644085439599083
+    second: pngkey.com-gameboy-color-png-1471298_50
+  - first:
+      213: 9036261037092682356
+    second: pngkey.com-gameboy-color-png-1471298_51
+  - first:
+      213: -6788523207970848240
+    second: pngkey.com-gameboy-color-png-1471298_52
+  - first:
+      213: -8808859479742655447
+    second: pngkey.com-gameboy-color-png-1471298_53
+  - first:
+      213: -1236474654401312606
+    second: pngkey.com-gameboy-color-png-1471298_54
+  - first:
+      213: 990545332500568709
+    second: pngkey.com-gameboy-color-png-1471298_55
+  - first:
+      213: -1713940189998280298
+    second: pngkey.com-gameboy-color-png-1471298_56
+  - first:
+      213: -1495143479240198439
+    second: pngkey.com-gameboy-color-png-1471298_57
+  - first:
+      213: 3133101549426194674
+    second: pngkey.com-gameboy-color-png-1471298_58
+  - first:
+      213: -882443426560202806
+    second: pngkey.com-gameboy-color-png-1471298_59
+  - first:
+      213: 2567118182003319034
+    second: pngkey.com-gameboy-color-png-1471298_60
+  - first:
+      213: 8411886436855698376
+    second: pngkey.com-gameboy-color-png-1471298_61
+  - first:
+      213: 4611478448365155023
+    second: pngkey.com-gameboy-color-png-1471298_62
+  - first:
+      213: 9169264907735815994
+    second: pngkey.com-gameboy-color-png-1471298_63
+  - first:
+      213: -518623541897253292
+    second: pngkey.com-gameboy-color-png-1471298_64
+  - first:
+      213: -1720912345220526045
+    second: pngkey.com-gameboy-color-png-1471298_65
+  - first:
+      213: -1572278992757028483
+    second: pngkey.com-gameboy-color-png-1471298_66
+  - first:
+      213: -5536735564427697817
+    second: pngkey.com-gameboy-color-png-1471298_67
+  - first:
+      213: 5163771820551273239
+    second: pngkey.com-gameboy-color-png-1471298_68
+  - first:
+      213: -8006366263830615866
+    second: pngkey.com-gameboy-color-png-1471298_69
+  - first:
+      213: 1040987391817868645
+    second: pngkey.com-gameboy-color-png-1471298_70
+  - first:
+      213: -5395492474857975322
+    second: pngkey.com-gameboy-color-png-1471298_71
+  - first:
+      213: 5248912542406282255
+    second: pngkey.com-gameboy-color-png-1471298_72
+  - first:
+      213: -6025945894014404262
+    second: pngkey.com-gameboy-color-png-1471298_73
+  - first:
+      213: 8533671226693558375
+    second: pngkey.com-gameboy-color-png-1471298_74
+  - first:
+      213: -4701270179562849678
+    second: pngkey.com-gameboy-color-png-1471298_75
+  - first:
+      213: -1468814937104085578
+    second: pngkey.com-gameboy-color-png-1471298_76
+  - first:
+      213: -4750203247065189689
+    second: pngkey.com-gameboy-color-png-1471298_77
+  - first:
+      213: -6467934196662046169
+    second: pngkey.com-gameboy-color-png-1471298_78
+  - first:
+      213: -6028978016375539340
+    second: pngkey.com-gameboy-color-png-1471298_79
+  - first:
+      213: 2379093387326518102
+    second: pngkey.com-gameboy-color-png-1471298_80
+  - first:
+      213: 5285853686064850682
+    second: pngkey.com-gameboy-color-png-1471298_81
+  - first:
+      213: 2072711973330175894
+    second: pngkey.com-gameboy-color-png-1471298_82
+  - first:
+      213: -5465072497990086144
+    second: pngkey.com-gameboy-color-png-1471298_83
+  - first:
+      213: 2417756075131743856
+    second: pngkey.com-gameboy-color-png-1471298_84
+  - first:
+      213: -1457773101410058654
+    second: pngkey.com-gameboy-color-png-1471298_85
+  - first:
+      213: -1326679625976481454
+    second: pngkey.com-gameboy-color-png-1471298_86
+  - first:
+      213: -5369662416417283944
+    second: pngkey.com-gameboy-color-png-1471298_87
+  - first:
+      213: -3966414585928839869
+    second: pngkey.com-gameboy-color-png-1471298_88
+  - first:
+      213: -6734420453085785703
+    second: pngkey.com-gameboy-color-png-1471298_89
+  - first:
+      213: -6422289495453576524
+    second: pngkey.com-gameboy-color-png-1471298_90
+  - first:
+      213: -4494022250525273587
+    second: pngkey.com-gameboy-color-png-1471298_91
+  - first:
+      213: 4449168582503502384
+    second: pngkey.com-gameboy-color-png-1471298_92
+  - first:
+      213: 4312981547206254696
+    second: pngkey.com-gameboy-color-png-1471298_93
+  - first:
+      213: -677129380898404620
+    second: pngkey.com-gameboy-color-png-1471298_94
+  - first:
+      213: 2226244998805490782
+    second: pngkey.com-gameboy-color-png-1471298_95
+  - first:
+      213: -4974641257986613025
+    second: pngkey.com-gameboy-color-png-1471298_96
+  - first:
+      213: -4054723602864217598
+    second: pngkey.com-gameboy-color-png-1471298_97
+  - first:
+      213: -993659198590657223
+    second: pngkey.com-gameboy-color-png-1471298_98
+  - first:
+      213: -1551132190252636073
+    second: pngkey.com-gameboy-color-png-1471298_99
+  - first:
+      213: 6864152467207733695
+    second: pngkey.com-gameboy-color-png-1471298_100
+  - first:
+      213: -5703093735469256556
+    second: pngkey.com-gameboy-color-png-1471298_101
+  - first:
+      213: -8438613855926696478
+    second: pngkey.com-gameboy-color-png-1471298_102
+  - first:
+      213: -3429111353398080375
+    second: pngkey.com-gameboy-color-png-1471298_103
+  - first:
+      213: -649408531794573594
+    second: pngkey.com-gameboy-color-png-1471298_104
+  - first:
+      213: 219589051815817792
+    second: pngkey.com-gameboy-color-png-1471298_105
+  - first:
+      213: -394753347498501355
+    second: pngkey.com-gameboy-color-png-1471298_106
+  - first:
+      213: -1422528207332269717
+    second: pngkey.com-gameboy-color-png-1471298_107
+  - first:
+      213: 2743222483648452431
+    second: pngkey.com-gameboy-color-png-1471298_108
+  - first:
+      213: 1519302236442343300
+    second: pngkey.com-gameboy-color-png-1471298_109
+  - first:
+      213: 1211087806036830019
+    second: pngkey.com-gameboy-color-png-1471298_110
+  - first:
+      213: 9088536804547576791
+    second: pngkey.com-gameboy-color-png-1471298_111
+  - first:
+      213: 1075568769386032093
+    second: pngkey.com-gameboy-color-png-1471298_112
+  - first:
+      213: -8589964909142271124
+    second: pngkey.com-gameboy-color-png-1471298_113
+  - first:
+      213: -4142197648024781357
+    second: pngkey.com-gameboy-color-png-1471298_114
+  - first:
+      213: 7493943509117299502
+    second: pngkey.com-gameboy-color-png-1471298_115
+  - first:
+      213: -3476719286605936419
+    second: pngkey.com-gameboy-color-png-1471298_116
+  - first:
+      213: -5476916259915629915
+    second: pngkey.com-gameboy-color-png-1471298_117
+  - first:
+      213: -737743454767353334
+    second: pngkey.com-gameboy-color-png-1471298_118
+  - first:
+      213: 6047899073011654885
+    second: pngkey.com-gameboy-color-png-1471298_119
+  - first:
+      213: 7787579777913296343
+    second: pngkey.com-gameboy-color-png-1471298_120
+  - first:
+      213: 2600667554754206185
+    second: pngkey.com-gameboy-color-png-1471298_121
+  - first:
+      213: -5248749602739450971
+    second: pngkey.com-gameboy-color-png-1471298_122
+  - first:
+      213: -8324548515277915127
+    second: pngkey.com-gameboy-color-png-1471298_123
+  - first:
+      213: -5512285945985909193
+    second: pngkey.com-gameboy-color-png-1471298_124
+  - first:
+      213: -7606510229988147650
+    second: pngkey.com-gameboy-color-png-1471298_125
+  - first:
+      213: -5103397241982726851
+    second: pngkey.com-gameboy-color-png-1471298_126
+  - first:
+      213: -8906852080394730780
+    second: pngkey.com-gameboy-color-png-1471298_127
+  - first:
+      213: -440735483824251511
+    second: pngkey.com-gameboy-color-png-1471298_128
+  - first:
+      213: 6138143208858805557
+    second: pngkey.com-gameboy-color-png-1471298_129
+  - first:
+      213: -4222640489133738127
+    second: pngkey.com-gameboy-color-png-1471298_130
+  - first:
+      213: -8170913309797203460
+    second: pngkey.com-gameboy-color-png-1471298_131
+  - first:
+      213: -3684036714596903858
+    second: pngkey.com-gameboy-color-png-1471298_132
+  - first:
+      213: -4281480008690371107
+    second: pngkey.com-gameboy-color-png-1471298_133
+  - first:
+      213: 3097442432556027473
+    second: pngkey.com-gameboy-color-png-1471298_134
+  - first:
+      213: -5728143919776315562
+    second: pngkey.com-gameboy-color-png-1471298_135
+  - first:
+      213: 3820932838608067535
+    second: pngkey.com-gameboy-color-png-1471298_136
+  - first:
+      213: -9092087697213322193
+    second: pngkey.com-gameboy-color-png-1471298_137
+  - first:
+      213: -9054402378075327772
+    second: pngkey.com-gameboy-color-png-1471298_138
+  - first:
+      213: 1491885682839793099
+    second: pngkey.com-gameboy-color-png-1471298_139
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 554
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5bbe663787ae790800000000000000
+      internalID: -7500049792388844084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 554
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859ce574726dc6a10800000000000000
+      internalID: 1904132206660340056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 554
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6b766a0ed07a830800000000000000
+      internalID: 4082246845750294242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 555
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da17c62cb675c6dc0800000000000000
+      internalID: -3644441878114569811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 553
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffaf4370d2299970800000000000000
+      internalID: 8762072828709154801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 551
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669af007ad6cc6260800000000000000
+      internalID: 7092262154686933350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_6
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 551
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0421127acc1e7d0800000000000000
+      internalID: -2890804467608698666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_7
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 551
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0015879413e632fa0800000000000000
+      internalID: -5826692334922215168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 503
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae1c936c88a448e0800000000000000
+      internalID: -1710056637573882202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 504
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677d190917aede250800000000000000
+      internalID: 5975690054068197238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 503
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ecf0ad8871f8950800000000000000
+      internalID: 6453402667586670147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_11
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 505
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6feff711e53cccbe0800000000000000
+      internalID: -1455573770759569674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_12
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 503
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d06d0c6791f3a2f0800000000000000
+      internalID: -962660262671982379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 503
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1279a9a40a5f0db0800000000000000
+      internalID: -4823537699817688547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_14
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 504
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942f27bede95b5eb0800000000000000
+      internalID: -4730088105230273975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_15
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 511
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0106dfdafcb467ed0800000000000000
+      internalID: -2416660794688315376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_16
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 511
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9aa65ce08dadc270800000000000000
+      internalID: 8272458859781991071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_17
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 512
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e541d3d7e1df3e250800000000000000
+      internalID: 5972895838215410782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 455
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ce73f9663968670800000000000000
+      internalID: 8540675812321913863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_19
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 455
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e896ff78f6670c110800000000000000
+      internalID: 1279152515568331150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 457
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcc27e5277a2ebf0800000000000000
+      internalID: -296490515800339265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_21
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 455
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4e3c1bd09ede110800000000000000
+      internalID: 1291944913151452415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 457
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9c1a99f69d17ba0800000000000000
+      internalID: -6092849747513456224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_23
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 455
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7138f7c7c2c9e4e50800000000000000
+      internalID: 6795540602629882647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_24
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 455
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1796de95c44086fd0800000000000000
+      internalID: -2348622479700956815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_25
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 457
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d6a81fa6aa3cb00800000000000000
+      internalID: 847708531171421572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 455
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed58f6e5b0788420800000000000000
+      internalID: 2632477908764483048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_27
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 457
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb4ce9e78f6063c0800000000000000
+      internalID: -4368369009013535750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 455
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bdc77a89c030f30800000000000000
+      internalID: 4540486699104131853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 405
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba563ce4938d5610800000000000000
+      internalID: 1611588917309889210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_30
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 405
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32db92844755dfc0800000000000000
+      internalID: -3470771986058456516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_31
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 407
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4926d83bd291a220800000000000000
+      internalID: 2495437138789017932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_32
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 405
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3b047c817dc5480800000000000000
+      internalID: -8909009461423590418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_33
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 407
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236676e6d7a101320800000000000000
+      internalID: 2526548516980352562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 405
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60def8f8c9871d220800000000000000
+      internalID: 2508919081240882438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_35
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 405
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1c2ce30cda93930800000000000000
+      internalID: 4123517975032676802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_36
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 407
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc11ac2283f6b0d30800000000000000
+      internalID: 4398731747949941196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_37
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 405
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef08a5ce05231d800800000000000000
+      internalID: 635344345580077310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_38
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 407
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8a09990d721e510800000000000000
+      internalID: 1576585121439459577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_39
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 407
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467502ff75850a590800000000000000
+      internalID: -7665029430818875548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_40
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 366
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8194a303e214928e0800000000000000
+      internalID: -1717770116231706344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_41
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 366
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83754210fe0581ca0800000000000000
+      internalID: -6045993512298326216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_42
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 366
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a868c9169dd1e3980800000000000000
+      internalID: -8557369422474606966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_43
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 365
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38de1fdf9b33d2380800000000000000
+      internalID: -8994476006866555517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_44
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 373
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b11c8e212bf44820800000000000000
+      internalID: 2901720179866866096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 377
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe741454936418db0800000000000000
+      internalID: -4791471316756510737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_46
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 378
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8828b935bf60a70800000000000000
+      internalID: 8792991658997352645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_47
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 378
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000c52102adb391a0800000000000000
+      internalID: -6803886108525084672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_48
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 375
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b4303603327f650800000000000000
+      internalID: 6266516097235897168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_49
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 375
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86c04177135ecfa0800000000000000
+      internalID: -5778589911720343926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_50
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be11afae077860e00800000000000000
+      internalID: 1010644085439599083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_51
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 334
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47abc9d798f376d70800000000000000
+      internalID: 9036261037092682356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_52
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 333
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01207670c125ac1a0800000000000000
+      internalID: -6788523207970848240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_53
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9245b9979f4a0c580800000000000000
+      internalID: -8808859479742655447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_54
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 333
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8c2aa5ad827dee0800000000000000
+      internalID: -1236474654401312606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 333
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a1e955bbf1fbd00800000000000000
+      internalID: 990545332500568709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_56
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 334
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69113e06a7cd638e0800000000000000
+      internalID: -1713940189998280298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_57
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 333
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d675af5dee204be0800000000000000
+      internalID: -1495143479240198439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_58
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 333
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f836c262430b7b20800000000000000
+      internalID: 3133101549426194674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_59
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 333
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac72081016ee0c3f0800000000000000
+      internalID: -882443426560202806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 289
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af021c6a26c30a320800000000000000
+      internalID: 2567118182003319034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_61
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 289
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3d5bf65260db470800000000000000
+      internalID: 8411886436855698376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_62
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 290
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2bc2457334fff30800000000000000
+      internalID: 4611478448365155023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 290
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a375c0d4ad5cf3f70800000000000000
+      internalID: 9169264907735815994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_64
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 289
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e2f0de2aa7dc8f0800000000000000
+      internalID: -518623541897253292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_65
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 289
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320db8df6571e18e0800000000000000
+      internalID: -1720912345220526045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_66
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 289
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7988ec16942e2ae0800000000000000
+      internalID: -1572278992757028483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_67
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 285
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761e30bc6509923b0800000000000000
+      internalID: -5536735564427697817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_68
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 288
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b7129ac1769a740800000000000000
+      internalID: 5163771820551273239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_69
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 289
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c864b67d4ca3e090800000000000000
+      internalID: -8006366263830615866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_70
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 246
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565e6f87484527e00800000000000000
+      internalID: 1040987391817868645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_71
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 246
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e11ccf3e2c5f15b0800000000000000
+      internalID: -5395492474857975322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_72
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 247
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c083bb522e7d840800000000000000
+      internalID: 5248912542406282255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_73
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 247
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a593c8fd22a8f5ca0800000000000000
+      internalID: -6025945894014404262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_74
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 246
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760aa0174c0bd6670800000000000000
+      internalID: 8533671226693558375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_75
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 246
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27af40a1eabb1ceb0800000000000000
+      internalID: -4701270179562849678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_76
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 251
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd8f19c898bd9be0800000000000000
+      internalID: -1468814937104085578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_77
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 241
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2b5cf7053e31eb0800000000000000
+      internalID: -4750203247065189689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_78
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 247
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7227b51ed184d36a0800000000000000
+      internalID: -6467934196662046169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_79
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479fb4fdf64c45ca0800000000000000
+      internalID: -6028978016375539340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_80
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653f31fa4dc340120800000000000000
+      internalID: 2379093387326518102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_81
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6a59cfbef1b5940800000000000000
+      internalID: 5285853686064850682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_82
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 205
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6974b0cde80c3cc10800000000000000
+      internalID: 2072711973330175894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_83
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 208
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0025b8da4892824b0800000000000000
+      internalID: -5465072497990086144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_84
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 208
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e25cb27589d8120800000000000000
+      internalID: 2417756075131743856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_85
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 210
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e755f7613f4cbe0800000000000000
+      internalID: -1457773101410058654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_86
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 209
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2597ce2c8efa69de0800000000000000
+      internalID: -1326679625976481454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_87
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 205
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890aea16b702b75b0800000000000000
+      internalID: -5369662416417283944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_88
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 208
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d88c5f2f674f8c0800000000000000
+      internalID: -3966414585928839869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_89
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 209
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99152b547488a82a0800000000000000
+      internalID: -6734420453085785703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_90
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b254ca0bb17fd6a0800000000000000
+      internalID: -6422289495453576524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_91
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d025db0d29602a1c0800000000000000
+      internalID: -4494022250525273587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_92
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03213f9c04f9ebd30800000000000000
+      internalID: 4449168582503502384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_93
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 165
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8602b04bdd9cadb30800000000000000
+      internalID: 4312981547206254696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_94
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f602986a6a5a96f0800000000000000
+      internalID: -677129380898404620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_95
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 162
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c8ac0080635ee10800000000000000
+      internalID: 2226244998805490782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_96
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 165
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0a4b4f12686fab0800000000000000
+      internalID: -4974641257986613025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_97
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 171
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202e2e4bd5abab7c0800000000000000
+      internalID: -4054723602864217598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_98
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 161
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d54383930d532f0800000000000000
+      internalID: -993659198590657223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_99
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 167
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7586150cd75497ae0800000000000000
+      internalID: -1551132190252636073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_100
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 127
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1c9041d4e524f50800000000000000
+      internalID: 6864152467207733695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 127
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4907990c67a8ad0b0800000000000000
+      internalID: -5703093735469256556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_102
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 127
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5ccc0686504ea80800000000000000
+      internalID: -8438613855926696478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 127
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cc27d64695960d0800000000000000
+      internalID: -3429111353398080375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_104
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 127
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6c64c8166dcf6f0800000000000000
+      internalID: -649408531794573594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_105
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042fb0644132c0300800000000000000
+      internalID: 219589051815817792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_106
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 129
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b94740ced858af0800000000000000
+      internalID: -394753347498501355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_107
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 129
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61acfed12a224ce0800000000000000
+      internalID: -1422528207332269717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_108
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 129
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f471bbd8052e11620800000000000000
+      internalID: 2743222483648452431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_109
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 135
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4873a9d9555a51510800000000000000
+      internalID: 1519302236442343300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_110
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347e1a661f5aec010800000000000000
+      internalID: 1211087806036830019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_111
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d34f131218f02e70800000000000000
+      internalID: 9088536804547576791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_112
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb22ced8103dee00800000000000000
+      internalID: 1075568769386032093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_113
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 93
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b118d3d605ac880800000000000000
+      internalID: -8589964909142271124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_114
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 93
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd36087f25f386c0800000000000000
+      internalID: -4142197648024781357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_115
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 93
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2be7cbbae5dff760800000000000000
+      internalID: 7493943509117299502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_116
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 93
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd88a12ba3630cfc0800000000000000
+      internalID: -3476719286605936419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_117
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 93
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aafa27fda51ef3b0800000000000000
+      internalID: -5476916259915629915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_118
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 93
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02f8339c3203c5f0800000000000000
+      internalID: -737743454767353334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_119
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0264ce9247ee350800000000000000
+      internalID: 6047899073011654885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_120
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d599823c8a031c60800000000000000
+      internalID: 7787579777913296343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_121
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e91204bc5d671420800000000000000
+      internalID: 2600667554754206185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_122
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 86
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab0ebd9b02b827b0800000000000000
+      internalID: -5248749602739450971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_123
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 86
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cba5f0b33497c80800000000000000
+      internalID: -8324548515277915127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_124
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 49
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73eb121332d6083b0800000000000000
+      internalID: -5512285945985909193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_125
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 49
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e7e213f3f307690800000000000000
+      internalID: -7606510229988147650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_126
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 53
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d49e35f371d29b0800000000000000
+      internalID: -5103397241982726851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_127
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 52
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e28f113931846480800000000000000
+      internalID: -8906852080394730780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_128
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 47
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ddebe996132e9f0800000000000000
+      internalID: -440735483824251511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_129
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 50
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53561882ab01f2550800000000000000
+      internalID: 6138143208858805557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_130
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 50
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177700ff8da2665c0800000000000000
+      internalID: -4222640489133738127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_131
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 50
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1c607d2a51b9e80800000000000000
+      internalID: -8170913309797203460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_132
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 48
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4454fe702cafdcc0800000000000000
+      internalID: -3684036714596903858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_133
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 0
+        width: 42
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5f219cd902594c0800000000000000
+      internalID: -4281480008690371107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_134
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e49b04b735cfa20800000000000000
+      internalID: 3097442432556027473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_135
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6574b67347b8180b0800000000000000
+      internalID: -5728143919776315562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_136
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbdbdb2c2ea60530800000000000000
+      internalID: 3820932838608067535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_137
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 2
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c86ec496a62d180800000000000000
+      internalID: -9092087697213322193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_138
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e23e59620d485280800000000000000
+      internalID: -9054402378075327772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-gameboy-color-png-1471298_139
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 3
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd282bcf1e34b410800000000000000
+      internalID: 1491885682839793099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

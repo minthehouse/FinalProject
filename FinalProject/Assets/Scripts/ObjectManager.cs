@@ -6,6 +6,8 @@ public class ObjectManager : MonoBehaviour
 {
     public GameObject enemyBPrefab;
     public GameObject enemyB2Prefab;
+    public GameObject enemyB3Prefab;
+
     public GameObject enemyLPrefab;
     public GameObject enemyL2Prefab;
     public GameObject enemyMPrefab;
@@ -32,6 +34,7 @@ public class ObjectManager : MonoBehaviour
 
     GameObject[] enemyB;
     GameObject[] enemyB2;
+    GameObject[] enemyB3;
     GameObject[] enemyL;
     GameObject[] enemyL2;
     GameObject[] enemyM;
@@ -65,6 +68,7 @@ public class ObjectManager : MonoBehaviour
     {
         enemyB = new GameObject[10];
         enemyB2 = new GameObject[10];
+        enemyB3 = new GameObject[10];
         enemyL = new GameObject[10];
         enemyL2 = new GameObject[10];
         enemyM = new GameObject[10];
@@ -106,6 +110,11 @@ public class ObjectManager : MonoBehaviour
         for(int index=0; index < enemyB2.Length; index++ ){
             enemyB2[index] = Instantiate(enemyB2Prefab);
             enemyB2[index].SetActive(false);
+        }
+
+        for(int index=0; index < enemyB3.Length; index++ ){
+            enemyB3[index] = Instantiate(enemyB3Prefab);
+            enemyB3[index].SetActive(false);
         }
 
         for(int index=0; index < enemyL.Length; index++ ){
@@ -229,6 +238,10 @@ public class ObjectManager : MonoBehaviour
             case "EnemyB2":
                 targetPool = enemyB2;
                 break;
+            case "EnemyB3":
+                targetPool = enemyB3;
+                break;
+                
             case "EnemyL":
                 targetPool = enemyL;
                 break;
@@ -316,6 +329,9 @@ public class ObjectManager : MonoBehaviour
                 break;
             case "EnemyB2":
                 targetPool = enemyB2;
+                break;
+            case "EnemyB3":
+                targetPool = enemyB3;
                 break;
             case "EnemyL":
                 targetPool = enemyL;

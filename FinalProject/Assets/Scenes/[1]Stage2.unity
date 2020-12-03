@@ -2197,6 +2197,8 @@ MonoBehaviour:
     type: 3}
   enemyB2Prefab: {fileID: 5493160938379502510, guid: 61f91de9cedcd0a419c03dff340c3e92,
     type: 3}
+  enemyB3Prefab: {fileID: 5493160938379502510, guid: cffba9351b5273e41ab1f5695ddc7e48,
+    type: 3}
   enemyLPrefab: {fileID: 9018834470588022200, guid: 091a9fd01b4583c4f83048a6501401ce,
     type: 3}
   enemyL2Prefab: {fileID: 4482440543188775627, guid: 7df9908ffd4cf89448520350ee960890,

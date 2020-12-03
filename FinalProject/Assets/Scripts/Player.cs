@@ -99,7 +99,10 @@ public class Player : MonoBehaviour
     void Fire()
     {
         if(!Input.GetButton("Fire1"))
+        {
             return;
+        }
+            
         
         if(curShotDelay < maxShotDelay)
             return;
