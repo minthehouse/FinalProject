@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         spawnList = new List<Spawn>();
-        enemyObjs = new string[]{ "EnemyS", "EnemyM", "EnemyL","EnemyB","EnemyS2","EnemyM2","EnemyR","EnemyB2"};
+        enemyObjs = new string[]{ "EnemyS", "EnemyM", "EnemyL","EnemyB","EnemyS2","EnemyM2","EnemyR","EnemyB2","EnemyS3","EnemyL2","EnemyR2"};
         StageStart();
     }
 
@@ -170,7 +170,7 @@ public class GameManager : MonoBehaviour
                 break;
             case "L":
                 enemyIndex =2;
-                break;    
+                break;   
             case "B":
                 enemyIndex =3;
                 break; 
@@ -186,6 +186,15 @@ public class GameManager : MonoBehaviour
             case "B2":
                 enemyIndex =7;
                 break;
+            case "S3":
+                enemyIndex =8;
+                break; 
+            case "L2":
+                enemyIndex =9;
+                break; 
+            case "R2":
+                enemyIndex =10;
+                break;   
            
         }
 

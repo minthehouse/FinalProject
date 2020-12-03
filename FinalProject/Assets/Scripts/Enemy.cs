@@ -50,6 +50,9 @@ public class Enemy : MonoBehaviour
             case "L":
                 health =50;
                 break;
+            case "L2":
+                health =50;
+                break;
             case "M":
                 health = 15;
                 break;
@@ -59,11 +62,17 @@ public class Enemy : MonoBehaviour
             case "S2":
                 health=3;
                 break;
+            case "S3":
+                health=3;
+                break;
             case "M2":
                 health=15;
                 break;
             case "R":
                 health=1;
+                break;
+            case "R2":
+                health=5;
                 break;
             case "B2":
                 health =200;
@@ -239,6 +248,58 @@ public class Enemy : MonoBehaviour
             Rigidbody2D rigid = bullet.GetComponent<Rigidbody2D>();
             Vector3 dirVec = player.transform.position - transform.position;
             rigid.AddForce(dirVec.normalized*3, ForceMode2D.Impulse);
+        }
+
+         if(enemyName == "S2"){
+            GameObject bullet = objectManager.MakeObj("BulletEnemyA");
+            bullet.transform.position = transform.position; 
+            
+            Rigidbody2D rigid = bullet.GetComponent<Rigidbody2D>();
+            Vector3 dirVec = player.transform.position - transform.position;
+            rigid.AddForce(dirVec.normalized*3, ForceMode2D.Impulse);
+        }
+
+        if(enemyName == "S3"){
+            GameObject bullet = objectManager.MakeObj("BulletLaser");
+            bullet.transform.position = transform.position; 
+            
+            Rigidbody2D rigid = bullet.GetComponent<Rigidbody2D>();
+            Vector3 dirVec = player.transform.position - transform.position;
+            rigid.AddForce(dirVec.normalized*3, ForceMode2D.Impulse);
+        }
+
+        if (enemyName == "M2"){
+            GameObject bulletR = objectManager.MakeObj("BulletEnemyA");
+            bulletR.transform.position = transform.position + Vector3.right*0.3f;
+            
+            GameObject bulletL = objectManager.MakeObj("BulletEnemyA");
+            bulletL.transform.position = transform.position + Vector3.left*0.3f;
+            
+            Rigidbody2D rigidR = bulletR.GetComponent<Rigidbody2D>();
+            Rigidbody2D rigidL = bulletL.GetComponent<Rigidbody2D>();
+
+            Vector3 dirVecR = player.transform.position - (transform.position + Vector3.right*0.3f);
+            Vector3 dirVecL = player.transform.position - (transform.position + Vector3.left*0.3f);
+        
+            rigidR.AddForce(dirVecR.normalized*4, ForceMode2D.Impulse);
+            rigidL.AddForce(dirVecL.normalized*4, ForceMode2D.Impulse);
+        }
+
+        if (enemyName == "L2"){
+            GameObject bulletR = objectManager.MakeObj("BulletLaser2");
+            bulletR.transform.position = transform.position + Vector3.right*0.3f;
+            
+            GameObject bulletL = objectManager.MakeObj("BulletLaser2");
+            bulletL.transform.position = transform.position + Vector3.left*0.3f;
+            
+            Rigidbody2D rigidR = bulletR.GetComponent<Rigidbody2D>();
+            Rigidbody2D rigidL = bulletL.GetComponent<Rigidbody2D>();
+
+            Vector3 dirVecR = player.transform.position - (transform.position + Vector3.right*0.3f);
+            Vector3 dirVecL = player.transform.position - (transform.position + Vector3.left*0.3f);
+        
+            rigidR.AddForce(dirVecR.normalized*4, ForceMode2D.Impulse);
+            rigidL.AddForce(dirVecL.normalized*4, ForceMode2D.Impulse);
         }
 
         else if (enemyName == "L"){
