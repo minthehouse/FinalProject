@@ -238,7 +238,7 @@ MonoBehaviour:
   life: 3
   score: 0
   speed: 3
-  power: 3
+  power: 2
   maxPower: 6
   maxBoom: 3
   boom: 0
@@ -2516,6 +2516,10 @@ MonoBehaviour:
   bulletPlayerAPrefab: {fileID: 2049307346631200505, guid: 7c0aecd048fceb64daaaf03c4e4caa5f,
     type: 3}
   bulletPlayerBPrefab: {fileID: 6236205370793694509, guid: 89c8882ce95353147b91b601146bfcea,
+    type: 3}
+  bulletPlayerHPrefab: {fileID: 6236205370793694509, guid: cd13afd1a3b48b04a95bd989a647416c,
+    type: 3}
+  bulletPlayerH2Prefab: {fileID: 6236205370793694509, guid: 394366b63e7cc744da55675e68c3de18,
     type: 3}
   bulletEnemyAPrefab: {fileID: 6236205370793694509, guid: 770b7b2a5fc4ef549bebe84ce3c43f14,
     type: 3}
