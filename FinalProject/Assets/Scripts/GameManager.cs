@@ -30,6 +30,8 @@ public class GameManager : MonoBehaviour
     public int spawnIndex;
     public bool spawnEnd;
 
+    private Scene scene;
+
     void Awake()
     {
         spawnList = new List<Spawn>();
@@ -39,10 +41,19 @@ public class GameManager : MonoBehaviour
 
     public void StageStart()
     {
+
         //Stage UI Load
         stageAnim.SetTrigger("On");
+
+        if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[1]Stage2"))
+            stage++;
+
+        if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[1]Stage3"))
+            stage= stage+2;
+
         stageAnim.GetComponent<Text>().text = "STAGE " + stage + "\nSTART";
         clearAnim.GetComponent<Text>().text = "STAGE " + stage + "\nCLEAR";
+
 
         //Enemy Spawn File Read
         ReadSpawnFile();
@@ -61,6 +72,12 @@ public class GameManager : MonoBehaviour
 
         //Player Repos
         player.transform.position = playerPos.position;
+
+        if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[1]Stage1"))
+            SceneManager.LoadScene("[1]Stage2");
+        
+        if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[1]Stage2"))
+            SceneManager.LoadScene("[1]Stage3");
 
         //Stage Increasement
         stage++;
