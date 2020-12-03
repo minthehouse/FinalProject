@@ -51,6 +51,12 @@ public class GameManager : MonoBehaviour
         if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[1]Stage3"))
             stage= stage+2;
 
+        if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[2]Stage2"))
+            stage++;
+
+        if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[2]Stage3"))
+            stage= stage+2;
+
         stageAnim.GetComponent<Text>().text = "STAGE " + stage + "\nSTART";
         clearAnim.GetComponent<Text>().text = "STAGE " + stage + "\nCLEAR";
 
@@ -71,13 +77,19 @@ public class GameManager : MonoBehaviour
         fadeAnim.SetTrigger("Out");
 
         //Player Repos
-        player.transform.position = playerPos.position;
+        //player.transform.position = playerPos.position;
 
         if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[1]Stage1"))
             SceneManager.LoadScene("[1]Stage2");
         
         if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[1]Stage2"))
             SceneManager.LoadScene("[1]Stage3");
+
+        if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[2]Stage1"))
+            SceneManager.LoadScene("[2]Stage2");
+        
+        if (SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[2]Stage2"))
+            SceneManager.LoadScene("[2]Stage3");
 
         //Stage Increasement
         stage++;
