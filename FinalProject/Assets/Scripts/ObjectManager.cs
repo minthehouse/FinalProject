@@ -5,9 +5,13 @@ using UnityEngine;
 public class ObjectManager : MonoBehaviour
 {
     public GameObject enemyBPrefab;
+    public GameObject enemyB2Prefab;
     public GameObject enemyLPrefab;
     public GameObject enemyMPrefab;
     public GameObject enemySPrefab;
+    public GameObject enemyS2Prefab;
+    public GameObject enemyM2Prefab;
+    public GameObject enemyRPrefab;
     public GameObject itemCoinPrefab;
     public GameObject itemPowerPrefab;
     public GameObject itemBoomPrefab;
@@ -20,10 +24,17 @@ public class ObjectManager : MonoBehaviour
     public GameObject bulletBossBPrefab;
     public GameObject explosionPrefab;
 
+
     GameObject[] enemyB;
+    GameObject[] enemyB2;
     GameObject[] enemyL;
     GameObject[] enemyM;
     GameObject[] enemyS;
+    GameObject[] enemyS2;
+    GameObject[] enemyM2;
+    GameObject[] enemyR;
+
+
 
     GameObject[] itemCoin;
     GameObject[] itemPower;
@@ -43,9 +54,15 @@ public class ObjectManager : MonoBehaviour
     void Awake()
     {
         enemyB = new GameObject[10];
+        enemyB2 = new GameObject[10];
         enemyL = new GameObject[10];
         enemyM = new GameObject[10];
         enemyS = new GameObject[20];
+        enemyS2 = new GameObject[20];
+        enemyM2 = new GameObject[20];
+        enemyR = new GameObject[20];
+
+      
         
         itemCoin = new GameObject[20];
         itemPower = new GameObject[10];
@@ -71,6 +88,11 @@ public class ObjectManager : MonoBehaviour
             enemyB[index].SetActive(false);
         }
 
+        for(int index=0; index < enemyB2.Length; index++ ){
+            enemyB2[index] = Instantiate(enemyB2Prefab);
+            enemyB2[index].SetActive(false);
+        }
+
         for(int index=0; index < enemyL.Length; index++ ){
             enemyL[index] = Instantiate(enemyLPrefab);
             enemyL[index].SetActive(false);
@@ -84,6 +106,20 @@ public class ObjectManager : MonoBehaviour
             enemyS[index] = Instantiate(enemySPrefab);
             enemyS[index].SetActive(false);
         }
+        for(int index=0; index < enemyS2.Length; index++ ){
+            enemyS2[index] = Instantiate(enemyS2Prefab);
+            enemyS2[index].SetActive(false);
+        }
+        for(int index=0; index < enemyM2.Length; index++ ){
+            enemyM2[index] = Instantiate(enemyM2Prefab);
+            enemyM2[index].SetActive(false);
+        }
+        for(int index=0; index < enemyR.Length; index++ ){
+            enemyR[index] = Instantiate(enemyRPrefab);
+            enemyR[index].SetActive(false);
+        }
+
+
 
         //Item
         for(int index=0; index < itemCoin.Length; index++ ){
@@ -149,6 +185,9 @@ public class ObjectManager : MonoBehaviour
             case "EnemyB":
                 targetPool = enemyB;
                 break;
+            case "EnemyB2":
+                targetPool = enemyB2;
+                break;
             case "EnemyL":
                 targetPool = enemyL;
                 break;
@@ -157,6 +196,15 @@ public class ObjectManager : MonoBehaviour
                 break;
             case "EnemyS":
                 targetPool = enemyS;
+                break;
+            case "EnemyS2":
+                targetPool = enemyS2;
+                break;
+            case "EnemyM2":
+                targetPool = enemyM2;
+                break;
+            case "EnemyR":
+                targetPool = enemyR;
                 break;
             case "ItemCoin":
                 targetPool = itemCoin;
@@ -210,6 +258,9 @@ public class ObjectManager : MonoBehaviour
             case "EnemyB":
                 targetPool = enemyB;
                 break;
+            case "EnemyB2":
+                targetPool = enemyB2;
+                break;
             case "EnemyL":
                 targetPool = enemyL;
                 break;
@@ -218,6 +269,15 @@ public class ObjectManager : MonoBehaviour
                 break;
             case "EnemyS":
                 targetPool = enemyS;
+                break;
+            case "EnemyS2":
+                targetPool = enemyS2;
+                break;
+            case "EnemyM2":
+                targetPool = enemyM2;
+                break;
+             case "EnemyR":
+                targetPool = enemyR;
                 break;
             case "ItemCoin":
                 targetPool = itemCoin;

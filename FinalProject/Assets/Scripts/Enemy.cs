@@ -35,8 +35,9 @@ public class Enemy : MonoBehaviour
     {
         spriteRenderer =  GetComponent<SpriteRenderer>();
         
-        if(enemyName =="B")
+        if((enemyName =="B")||(enemyName =="B2"))
             anim = GetComponent<Animator>();
+        
     }
 
     void OnEnable()
@@ -55,6 +56,20 @@ public class Enemy : MonoBehaviour
             case "S":
                 health=3;
                 break;
+            case "S2":
+                health=3;
+                break;
+            case "M2":
+                health=15;
+                break;
+            case "R":
+                health=1;
+                break;
+            case "B2":
+                health =200;
+                Invoke("Stop",2);
+                break;
+        
         }
     }
 
@@ -204,7 +219,7 @@ public class Enemy : MonoBehaviour
 
      void Update()
     {
-        if (enemyName =="B")
+        if ((enemyName =="B")||(enemyName =="B2"))
             return;
 
         Fire();
@@ -258,10 +273,12 @@ public class Enemy : MonoBehaviour
             
         health -= dmg;
 
-        if(enemyName =="B")
+        if ((enemyName =="B")||(enemyName =="B2"))
         {
             anim.SetTrigger("OnHit");
         }
+
+
         else
         {
             spriteRenderer.sprite =  sprites[1]; 
@@ -274,7 +291,8 @@ public class Enemy : MonoBehaviour
             playerLogic.score += enemyScore;
 
             //Random Ratio Item Drop
-            int ran = enemyName == "B" ? 0 : Random.Range(0,10);    //Boss will not drop any item
+            int ran = (enemyName == "B") ? 0 : Random.Range(0,10);    //Boss will not drop any item
+            
 
             if(ran < 3){
                 Debug.Log("Not Item");
@@ -297,8 +315,9 @@ public class Enemy : MonoBehaviour
             gameManager.CallExplosion(transform.position, enemyName);
             
             //Boss Kill
-            if(enemyName =="B")
+            if((enemyName =="B")||(enemyName =="B2"))
                 gameManager.StageEnd();
+           
             
         }
     }
@@ -316,6 +335,7 @@ public class Enemy : MonoBehaviour
             gameObject.SetActive(false);
             transform.rotation = Quaternion.identity;
         }
+
         
             
         else if(collision.gameObject.tag == "PlayerBullet")
