@@ -98,7 +98,6 @@ public class Player : MonoBehaviour
 
     void Fire()
     {
-        SoundManager.PlaySound("shooting");
         if(!Input.GetButton("Fire1"))
             return;
         
@@ -106,9 +105,12 @@ public class Player : MonoBehaviour
             return;
 
 
-        switch(power) {
+        switch(power) 
+        {
             case 1:
+
                 //Power One
+
                 GameObject bullet = objectManager.MakeObj("BulletPlayerA");
                 bullet.transform.position = transform.position; 
                 
@@ -116,6 +118,7 @@ public class Player : MonoBehaviour
                 rigid.AddForce(Vector2.up*10, ForceMode2D.Impulse);
                 break;
             case 2:
+
                 GameObject bulletR = objectManager.MakeObj("BulletPlayerA");
                 bulletR.transform.position = transform.position + Vector3.right * 0.1f; 
                 
@@ -128,6 +131,8 @@ public class Player : MonoBehaviour
                 rigidL.AddForce(Vector2.up*10, ForceMode2D.Impulse);
                 break;
             default:
+                SoundManager.PlaySound("shooting");
+                
                 GameObject bulletRR = objectManager.MakeObj("BulletPlayerA");
                 bulletRR.transform.position = transform.position + Vector3.right * 0.35f; 
               
@@ -157,7 +162,6 @@ public class Player : MonoBehaviour
 
     void Boom()
     {
-        SoundManager.PlaySound("boom");
         if (!Input.GetButton("Fire2"))
             return;
         
