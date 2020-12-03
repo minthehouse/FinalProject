@@ -98,6 +98,7 @@ public class Player : MonoBehaviour
 
     void Fire()
     {
+        SoundManager.PlaySound("shooting");
         if(!Input.GetButton("Fire1"))
             return;
         
@@ -156,6 +157,7 @@ public class Player : MonoBehaviour
 
     void Boom()
     {
+        SoundManager.PlaySound("boom");
         if (!Input.GetButton("Fire2"))
             return;
         
