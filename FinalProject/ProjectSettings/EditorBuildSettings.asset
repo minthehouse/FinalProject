@@ -10,10 +10,14 @@ EditorBuildSettings:
     guid: ee827b50438cf4044a7cc142a8a3eeae
   - enabled: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     path: Assets/Scenes/MainScene.unity
     guid: 92b88f13b95734815b59e5ac84928bae
   - enabled: 1
     path: Assets/Scenes/[1]gameScene.unity
+=======
+    path: Assets/Scenes/[1]Stage1.unity
+>>>>>>> 3faf8748fcf3f8ebbdaf97e3d06a3c5b6ccc8ba8
 =======
     path: Assets/Scenes/[1]Stage1.unity
 >>>>>>> 3faf8748fcf3f8ebbdaf97e3d06a3c5b6ccc8ba8
