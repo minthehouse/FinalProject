@@ -267,6 +267,8 @@ public class Player : MonoBehaviour
             collision.gameObject.SetActive(false);
         }
         else if(collision.gameObject.tag == "Item"){
+            SoundManager.PlaySound("item");
+
             Item item = collision.gameObject.GetComponent<Item>();
             switch (item.type){
                 case "Coin":
