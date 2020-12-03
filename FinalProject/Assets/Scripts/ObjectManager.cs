@@ -5,6 +5,7 @@ using UnityEngine;
 public class ObjectManager : MonoBehaviour
 {
     public GameObject enemyBPrefab;
+    public GameObject enemyB2Prefab;
     public GameObject enemyLPrefab;
     public GameObject enemyMPrefab;
     public GameObject enemySPrefab;
@@ -25,6 +26,7 @@ public class ObjectManager : MonoBehaviour
 
 
     GameObject[] enemyB;
+    GameObject[] enemyB2;
     GameObject[] enemyL;
     GameObject[] enemyM;
     GameObject[] enemyS;
@@ -52,6 +54,7 @@ public class ObjectManager : MonoBehaviour
     void Awake()
     {
         enemyB = new GameObject[10];
+        enemyB2 = new GameObject[10];
         enemyL = new GameObject[10];
         enemyM = new GameObject[10];
         enemyS = new GameObject[20];
@@ -83,6 +86,11 @@ public class ObjectManager : MonoBehaviour
         for(int index=0; index < enemyB.Length; index++ ){
             enemyB[index] = Instantiate(enemyBPrefab);
             enemyB[index].SetActive(false);
+        }
+
+        for(int index=0; index < enemyB2.Length; index++ ){
+            enemyB2[index] = Instantiate(enemyB2Prefab);
+            enemyB2[index].SetActive(false);
         }
 
         for(int index=0; index < enemyL.Length; index++ ){
@@ -177,6 +185,9 @@ public class ObjectManager : MonoBehaviour
             case "EnemyB":
                 targetPool = enemyB;
                 break;
+            case "EnemyB2":
+                targetPool = enemyB2;
+                break;
             case "EnemyL":
                 targetPool = enemyL;
                 break;
@@ -246,6 +257,9 @@ public class ObjectManager : MonoBehaviour
         {
             case "EnemyB":
                 targetPool = enemyB;
+                break;
+            case "EnemyB2":
+                targetPool = enemyB2;
                 break;
             case "EnemyL":
                 targetPool = enemyL;
