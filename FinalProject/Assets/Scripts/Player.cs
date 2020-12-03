@@ -170,6 +170,8 @@ public class Player : MonoBehaviour
 
         if (boom == 0)
             return;
+        
+        SoundManager.PlaySound("boom");
 
         boom--;
         isBoomTime = true;
@@ -267,23 +269,25 @@ public class Player : MonoBehaviour
             collision.gameObject.SetActive(false);
         }
         else if(collision.gameObject.tag == "Item"){
-            SoundManager.PlaySound("item");
 
             Item item = collision.gameObject.GetComponent<Item>();
             switch (item.type){
+
                 case "Coin":
+                    SoundManager.PlaySound("coin");
                     score += 1000;
                     break;
                 case "Power":
+                    SoundManager.PlaySound("item");
                     if(power == maxPower)
                         score += 500;
                     else{
                         power++;
                         AddFollower();
                     }
-                        
                     break;
                 case "Boom":
+                    SoundManager.PlaySound("item");
                     if (boom == maxBoom)
                         score += 500;
                     else{
