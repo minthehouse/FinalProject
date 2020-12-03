@@ -2730,23 +2730,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyBPrefab: {fileID: 7251696064557194744, guid: 3a090c8911cd12f4387f25b1109667be,
     type: 3}
- 
+  enemyB2Prefab: {fileID: 5493160938379502510, guid: 61f91de9cedcd0a419c03dff340c3e92,
+    type: 3}
+  enemyB3Prefab: {fileID: 5493160938379502510, guid: cffba9351b5273e41ab1f5695ddc7e48,
+    type: 3}
   enemyLPrefab: {fileID: 9018834470588022200, guid: 091a9fd01b4583c4f83048a6501401ce,
     type: 3}
-
-  enemyL2Prefab: {fileID: 0}
-
+  enemyL2Prefab: {fileID: 4482440543188775627, guid: 7df9908ffd4cf89448520350ee960890,
+    type: 3}
   enemyMPrefab: {fileID: 3766725107527188381, guid: f90c940f986c08740aba624fbc20d02d,
     type: 3}
   enemySPrefab: {fileID: 7138156684063259683, guid: c77e348d426c2c64081963482258f9c2,
     type: 3}
-
-  enemyS2Prefab: {fileID: 0}
-  enemyS3Prefab: {fileID: 0}
-  enemyM2Prefab: {fileID: 0}
-  enemyRPrefab: {fileID: 0}
-  enemyR2Prefab: {fileID: 0}
-
+  enemyS2Prefab: {fileID: 881028743422607457, guid: c7642c7341d1b99408ec9b6aa148a0e4,
+    type: 3}
+  enemyS3Prefab: {fileID: 5326132592898537234, guid: 9ee82b8f4158ecf488812a17a4bac1e8,
+    type: 3}
+  enemyM2Prefab: {fileID: 205676581801297379, guid: f76c0c17449a7db47b09f01adc240687,
+    type: 3}
+  enemyRPrefab: {fileID: 5344722896323406563, guid: 5171ccf393de56d4ca1e12bd0b0b2319,
+    type: 3}
+  enemyR2Prefab: {fileID: 4574064258438653807, guid: 589e82f5569705b4894c3fa7e3c8c5ae,
+    type: 3}
   itemCoinPrefab: {fileID: 3798159442211797396, guid: 3e8feeb799a0f3f4394dc01ec6675d86,
     type: 3}
   itemPowerPrefab: {fileID: 5512797945593741616, guid: 541a10e75359bed41a02861ee5b364e3,
@@ -2767,10 +2772,10 @@ MonoBehaviour:
     type: 3}
   bulletBossBPrefab: {fileID: 6236205370793694509, guid: 1ed798fc79c9e8d45bfdba7500af02f8,
     type: 3}
-
-  bulletLaserPrefab: {fileID: 0}
-  bulletLaser2Prefab: {fileID: 0}
-
+  bulletLaserPrefab: {fileID: 6236205370793694509, guid: b149d61f87726594884c7295d2f5877f,
+    type: 3}
+  bulletLaser2Prefab: {fileID: 6236205370793694509, guid: 2d34daed0874460468eb89710779ec64,
+    type: 3}
   explosionPrefab: {fileID: 6961547886908655169, guid: 318a8e560a7db204c9c8dd723c8951d8,
     type: 3}
 --- !u!4 &986133457
