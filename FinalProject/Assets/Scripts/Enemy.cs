@@ -55,6 +55,15 @@ public class Enemy : MonoBehaviour
             case "S":
                 health=3;
                 break;
+            case "S2":
+                health=3;
+                break;
+            case "M2":
+                health=15;
+                break;
+            case "R":
+                health=1;
+                break;
         }
     }
 
@@ -262,6 +271,7 @@ public class Enemy : MonoBehaviour
         {
             anim.SetTrigger("OnHit");
         }
+
         else
         {
             spriteRenderer.sprite =  sprites[1]; 

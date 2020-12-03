@@ -2201,6 +2201,12 @@ MonoBehaviour:
     type: 3}
   enemySPrefab: {fileID: 7138156684063259683, guid: c77e348d426c2c64081963482258f9c2,
     type: 3}
+  enemyS2Prefab: {fileID: 8453085326255564852, guid: c7642c7341d1b99408ec9b6aa148a0e4,
+    type: 3}
+  enemyM2Prefab: {fileID: 205676581801297379, guid: f76c0c17449a7db47b09f01adc240687,
+    type: 3}
+  enemyRPrefab: {fileID: 5344722896323406563, guid: 5171ccf393de56d4ca1e12bd0b0b2319,
+    type: 3}
   itemCoinPrefab: {fileID: 3798159442211797396, guid: 3e8feeb799a0f3f4394dc01ec6675d86,
     type: 3}
   itemPowerPrefab: {fileID: 5512797945593741616, guid: 541a10e75359bed41a02861ee5b364e3,
