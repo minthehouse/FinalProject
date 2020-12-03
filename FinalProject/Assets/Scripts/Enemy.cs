@@ -298,7 +298,6 @@ public class Enemy : MonoBehaviour
             
             //Boss Kill
             if(enemyName =="B")
-                //Invoke("Unbeatable", 3);
                 gameManager.StageEnd();
             
         }
