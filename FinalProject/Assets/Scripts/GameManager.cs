@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public Animator clearAnim;
     public Animator fadeAnim;
     public Transform playerPos;
+   
 
     public string[] enemyObjs;
     public Transform[] spawnPoints;
