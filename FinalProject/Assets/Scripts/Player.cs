@@ -303,12 +303,25 @@ public class Player : MonoBehaviour
 
         //Remove Enemy
         GameObject[] enemiesL = objectManager.GetPool("EnemyL");
+        GameObject[] enemiesL2 = objectManager.GetPool("EnemyL2");
         GameObject[] enemiesM = objectManager.GetPool("EnemyM");
+        GameObject[] enemiesM2 = objectManager.GetPool("EnemyM2");
         GameObject[] enemiesS = objectManager.GetPool("EnemyS");
+        GameObject[] enemiesS2 = objectManager.GetPool("EnemyS2");
+        GameObject[] enemiesS3 = objectManager.GetPool("EnemyS3");
+        GameObject[] enemiesR = objectManager.GetPool("EnemyR");
+        GameObject[] enemiesR2 = objectManager.GetPool("EnemyR2");
 
         for(int index=0; index < enemiesL.Length; index++){
             if (enemiesL[index].activeSelf){
                 Enemy enemyLogic = enemiesL[index].GetComponent<Enemy>();
+                enemyLogic.OnHit(1000);
+            }
+        }
+
+        for(int index=0; index < enemiesL2.Length; index++){
+            if (enemiesL2[index].activeSelf){
+                Enemy enemyLogic = enemiesL2[index].GetComponent<Enemy>();
                 enemyLogic.OnHit(1000);
             }
         }
@@ -320,6 +333,13 @@ public class Player : MonoBehaviour
             }
         }
 
+        for(int index=0; index < enemiesM2.Length; index++){
+            if (enemiesM2[index].activeSelf){
+                Enemy enemyLogic = enemiesM2[index].GetComponent<Enemy>();
+                enemyLogic.OnHit(1000);
+            }
+        }
+
         for(int index=0; index < enemiesS.Length; index++){
             if (enemiesS[index].activeSelf){
                 Enemy enemyLogic = enemiesS[index].GetComponent<Enemy>();
@@ -327,9 +347,44 @@ public class Player : MonoBehaviour
             }
         }
 
+        for(int index=0; index < enemiesS2.Length; index++){
+            if (enemiesS2[index].activeSelf){
+                Enemy enemyLogic = enemiesS2[index].GetComponent<Enemy>();
+                enemyLogic.OnHit(1000);
+            }
+        }
+
+        for(int index=0; index < enemiesS3.Length; index++){
+            if (enemiesS3[index].activeSelf){
+                Enemy enemyLogic = enemiesS3[index].GetComponent<Enemy>();
+                enemyLogic.OnHit(1000);
+            }
+        }
+
+        for(int index=0; index < enemiesR.Length; index++){
+            if (enemiesR[index].activeSelf){
+                Enemy enemyLogic = enemiesR[index].GetComponent<Enemy>();
+                enemyLogic.OnHit(1000);
+            }
+        }
+
+        for(int index=0; index < enemiesR2.Length; index++){
+            if (enemiesR2[index].activeSelf){
+                Enemy enemyLogic = enemiesR2[index].GetComponent<Enemy>();
+                enemyLogic.OnHit(1000);
+            }
+        }
+
+        
+
         //Remove Enemy Bullet
         GameObject[] bulletsA = objectManager.GetPool("BulletEnemyA");
         GameObject[] bulletsB = objectManager.GetPool("BulletEnemyB");
+
+        GameObject[] bulletsBA = objectManager.GetPool("BulletBossA");
+        GameObject[] bulletsBB = objectManager.GetPool("BulletBossB");
+        GameObject[] bulletsL = objectManager.GetPool("BulletLaser");
+        GameObject[] bulletsL2 = objectManager.GetPool("BulletLaser2");
         
         for(int index=0; index < bulletsA.Length; index++){
             if (bulletsA[index].activeSelf){
@@ -340,6 +395,30 @@ public class Player : MonoBehaviour
         for(int index=0; index < bulletsB.Length; index++){
             if (bulletsB[index].activeSelf){
                 bulletsB[index].SetActive(false);
+            }
+        }
+
+        for(int index=0; index < bulletsBA.Length; index++){
+            if (bulletsBA[index].activeSelf){
+                bulletsBA[index].SetActive(false);
+            }
+        }
+
+        for(int index=0; index < bulletsBB.Length; index++){
+            if (bulletsBB[index].activeSelf){
+                bulletsBB[index].SetActive(false);
+            }
+        }
+
+        for(int index=0; index < bulletsL.Length; index++){
+            if (bulletsL[index].activeSelf){
+                bulletsL[index].SetActive(false);
+            }
+        }
+
+        for(int index=0; index < bulletsL2.Length; index++){
+            if (bulletsL2[index].activeSelf){
+                bulletsL2[index].SetActive(false);
             }
         }
     
