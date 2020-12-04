@@ -44,7 +44,7 @@ public class Enemy : MonoBehaviour
     {
         switch (enemyName){
             case "B":
-                health =200;
+                health =700;
                 Invoke("Stop",2);
                 break;
             case "L":
@@ -75,11 +75,11 @@ public class Enemy : MonoBehaviour
                 health=5;
                 break;
             case "B2":
-                health =200;
+                health =700;
                 Invoke("Stop",2);
                 break;
             case "B3":
-                health =200;
+                health =700;
                 Invoke("Stop",2);
                 break;
             

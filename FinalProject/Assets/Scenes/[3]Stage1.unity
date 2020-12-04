@@ -4122,7 +4122,7 @@ MonoBehaviour:
   - {fileID: 1547490413}
   - {fileID: 564123119}
   - {fileID: 897919297}
-  gameOverSet: {fileID: 0}
+  gameOverSet: {fileID: 1164846340}
   objectManager: {fileID: 986133456}
   spawnIndex: 0
   spawnEnd: 0

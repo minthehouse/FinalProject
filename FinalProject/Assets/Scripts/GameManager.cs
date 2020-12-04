@@ -106,7 +106,7 @@ public class GameManager : MonoBehaviour
 
         //Stage Increasement
         stage++;
-        if (stage > 2)                        //Depending on the number of stages, end game or keep going !
+        if (stage > 3)                        //Depending on the number of stages, end game or keep going !
             Invoke("GameOver", 6);
         else
             Invoke("StageStart", 5);
