@@ -137,7 +137,9 @@ MonoBehaviour:
   enemyScore: 20
   speed: 8
   health: 1
-  sprites: []
+  sprites:
+  - {fileID: 21300000, guid: b186ca2eccfce304abcf789ce72b91c2, type: 3}
+  - {fileID: 21300000, guid: b186ca2eccfce304abcf789ce72b91c2, type: 3}
   maxShotDelay: 0
   curShotDelay: 0
   bulletObjA: {fileID: 0}

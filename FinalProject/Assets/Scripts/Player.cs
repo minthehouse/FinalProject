@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -99,53 +100,178 @@ public class Player : MonoBehaviour
     void Fire()
     {
         if(!Input.GetButton("Fire1"))
+        {
             return;
+        }
+            
         
         if(curShotDelay < maxShotDelay)
             return;
 
 
-        switch(power) {
-            case 1:
-                //Power One
-                GameObject bullet = objectManager.MakeObj("BulletPlayerA");
-                bullet.transform.position = transform.position; 
-                
-                Rigidbody2D rigid = bullet.GetComponent<Rigidbody2D>();
-                rigid.AddForce(Vector2.up*10, ForceMode2D.Impulse);
-                break;
-            case 2:
-                GameObject bulletR = objectManager.MakeObj("BulletPlayerA");
-                bulletR.transform.position = transform.position + Vector3.right * 0.1f; 
-                
-                GameObject bulletL = objectManager.MakeObj("BulletPlayerA");
-                bulletL.transform.position = transform.position + Vector3.left * 0.1f; 
-                
-                Rigidbody2D rigidR = bulletR.GetComponent<Rigidbody2D>();
-                Rigidbody2D rigidL = bulletL.GetComponent<Rigidbody2D>();
-                rigidR.AddForce(Vector2.up*10, ForceMode2D.Impulse);
-                rigidL.AddForce(Vector2.up*10, ForceMode2D.Impulse);
-                break;
-            default:
-                GameObject bulletRR = objectManager.MakeObj("BulletPlayerA");
-                bulletRR.transform.position = transform.position + Vector3.right * 0.35f; 
-              
-                GameObject bulletCC = objectManager.MakeObj("BulletPlayerB");
-                bulletCC.transform.position = transform.position;
 
-                GameObject bulletLL = objectManager.MakeObj("BulletPlayerA");
-                bulletLL.transform.position = transform.position + Vector3.left * 0.35f; 
+        if ((SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[1]Stage1")) ||(SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[1]Stage3"))
+            ||(SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[1]Stage2")) )        
+        {
+            switch(power) 
+            {
+                    case 1:
+
+                        //Power One
+                        SoundManager.PlaySound("shooting");
+                        GameObject bullet = objectManager.MakeObj("BulletPlayerA");
+                        bullet.transform.position = transform.position; 
                 
-                Rigidbody2D rigidRR = bulletRR.GetComponent<Rigidbody2D>();
-                Rigidbody2D rigidCC = bulletCC.GetComponent<Rigidbody2D>();
-                Rigidbody2D rigidLL = bulletLL.GetComponent<Rigidbody2D>();
-                rigidRR.AddForce(Vector2.up*10, ForceMode2D.Impulse);
-                rigidCC.AddForce(Vector2.up*10, ForceMode2D.Impulse);
-                rigidLL.AddForce(Vector2.up*10, ForceMode2D.Impulse);
-                break;
+                        Rigidbody2D rigid = bullet.GetComponent<Rigidbody2D>();
+                        rigid.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        break; 
+
+                
+                
+                    case 2:
+                        SoundManager.PlaySound("shooting");
+                        GameObject bulletR = objectManager.MakeObj("BulletPlayerA");
+                        bulletR.transform.position = transform.position + Vector3.right * 0.1f; 
+                
+                        GameObject bulletL = objectManager.MakeObj("BulletPlayerA");
+                        bulletL.transform.position = transform.position + Vector3.left * 0.1f; 
+                
+                        Rigidbody2D rigidR = bulletR.GetComponent<Rigidbody2D>();
+                        Rigidbody2D rigidL = bulletL.GetComponent<Rigidbody2D>();
+                        rigidR.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        rigidL.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        break;
+
+                    default:
+                        SoundManager.PlaySound("shooting");
+                
+                        GameObject bulletRR = objectManager.MakeObj("BulletPlayerA");
+                        bulletRR.transform.position = transform.position + Vector3.right * 0.35f; 
+              
+                        GameObject bulletCC = objectManager.MakeObj("BulletPlayerB");
+                        bulletCC.transform.position = transform.position;
+
+                        GameObject bulletLL = objectManager.MakeObj("BulletPlayerA");
+                        bulletLL.transform.position = transform.position + Vector3.left * 0.35f; 
+                
+                        Rigidbody2D rigidRR = bulletRR.GetComponent<Rigidbody2D>();
+                        Rigidbody2D rigidCC = bulletCC.GetComponent<Rigidbody2D>();
+                        Rigidbody2D rigidLL = bulletLL.GetComponent<Rigidbody2D>();
+                        rigidRR.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        rigidCC.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        rigidLL.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        break;
+            }
+        }
+
+        if ((SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[2]Stage1")) ||(SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[2]Stage3"))
+            ||(SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[2]Stage2")) )        
+        {
+            switch(power) 
+            {
+                    case 1:
+
+                        //Power One
+                        SoundManager.PlaySound("shooting");
+                        GameObject bullet = objectManager.MakeObj("BulletPlayerH");
+                        bullet.transform.position = transform.position; 
+                
+                        Rigidbody2D rigid = bullet.GetComponent<Rigidbody2D>();
+                        rigid.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        break; 
+
+                
+                
+                    case 2:
+                        SoundManager.PlaySound("shooting");
+                        GameObject bulletR = objectManager.MakeObj("BulletPlayerH");
+                        bulletR.transform.position = transform.position + Vector3.right * 0.1f; 
+                
+                        GameObject bulletL = objectManager.MakeObj("BulletPlayerH");
+                        bulletL.transform.position = transform.position + Vector3.left * 0.1f; 
+                
+                        Rigidbody2D rigidR = bulletR.GetComponent<Rigidbody2D>();
+                        Rigidbody2D rigidL = bulletL.GetComponent<Rigidbody2D>();
+                        rigidR.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        rigidL.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        break;
+
+                    default:
+                        SoundManager.PlaySound("shooting");
+                
+                        GameObject bulletRR = objectManager.MakeObj("BulletPlayerH");
+                        bulletRR.transform.position = transform.position + Vector3.right * 0.35f; 
+              
+                        GameObject bulletCC = objectManager.MakeObj("BulletPlayerH2");
+                        bulletCC.transform.position = transform.position;
+
+                        GameObject bulletLL = objectManager.MakeObj("BulletPlayerH");
+                        bulletLL.transform.position = transform.position + Vector3.left * 0.35f; 
+                
+                        Rigidbody2D rigidRR = bulletRR.GetComponent<Rigidbody2D>();
+                        Rigidbody2D rigidCC = bulletCC.GetComponent<Rigidbody2D>();
+                        Rigidbody2D rigidLL = bulletLL.GetComponent<Rigidbody2D>();
+                        rigidRR.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        rigidCC.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        rigidLL.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        break;
+            }
+        }
+
+        if ((SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[3]Stage1")) ||(SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[3]Stage3"))
+            ||(SceneManager.GetActiveScene () == SceneManager.GetSceneByName ("[3]Stage2")) )        
+        {
+            switch(power) 
+            {
+                    case 1:
+
+                        //Power One
+                        SoundManager.PlaySound("shooting");
+                        GameObject bullet = objectManager.MakeObj("BulletPlayerW");
+                        bullet.transform.position = transform.position; 
+                
+                        Rigidbody2D rigid = bullet.GetComponent<Rigidbody2D>();
+                        rigid.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        break; 
+
+                
+                
+                    case 2:
+                        SoundManager.PlaySound("shooting");
+                        GameObject bulletR = objectManager.MakeObj("BulletPlayerW");
+                        bulletR.transform.position = transform.position + Vector3.right * 0.1f; 
+                
+                        GameObject bulletL = objectManager.MakeObj("BulletPlayerW");
+                        bulletL.transform.position = transform.position + Vector3.left * 0.1f; 
+                
+                        Rigidbody2D rigidR = bulletR.GetComponent<Rigidbody2D>();
+                        Rigidbody2D rigidL = bulletL.GetComponent<Rigidbody2D>();
+                        rigidR.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        rigidL.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        break;
+
+                    default:
+                        SoundManager.PlaySound("shooting");
+                
+                        GameObject bulletRR = objectManager.MakeObj("BulletPlayerW");
+                        bulletRR.transform.position = transform.position + Vector3.right * 0.35f; 
+              
+                        GameObject bulletCC = objectManager.MakeObj("BulletPlayerW2");
+                        bulletCC.transform.position = transform.position;
+
+                        GameObject bulletLL = objectManager.MakeObj("BulletPlayerW");
+                        bulletLL.transform.position = transform.position + Vector3.left * 0.35f; 
+                
+                        Rigidbody2D rigidRR = bulletRR.GetComponent<Rigidbody2D>();
+                        Rigidbody2D rigidCC = bulletCC.GetComponent<Rigidbody2D>();
+                        Rigidbody2D rigidLL = bulletLL.GetComponent<Rigidbody2D>();
+                        rigidRR.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        rigidCC.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        rigidLL.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                        break;
+            }
         }
         
-
         curShotDelay = 0;
     }
 
@@ -164,6 +290,8 @@ public class Player : MonoBehaviour
 
         if (boom == 0)
             return;
+        
+        SoundManager.PlaySound("boom");
 
         boom--;
         isBoomTime = true;
@@ -175,12 +303,25 @@ public class Player : MonoBehaviour
 
         //Remove Enemy
         GameObject[] enemiesL = objectManager.GetPool("EnemyL");
+        GameObject[] enemiesL2 = objectManager.GetPool("EnemyL2");
         GameObject[] enemiesM = objectManager.GetPool("EnemyM");
+        GameObject[] enemiesM2 = objectManager.GetPool("EnemyM2");
         GameObject[] enemiesS = objectManager.GetPool("EnemyS");
+        GameObject[] enemiesS2 = objectManager.GetPool("EnemyS2");
+        GameObject[] enemiesS3 = objectManager.GetPool("EnemyS3");
+        GameObject[] enemiesR = objectManager.GetPool("EnemyR");
+        GameObject[] enemiesR2 = objectManager.GetPool("EnemyR2");
 
         for(int index=0; index < enemiesL.Length; index++){
             if (enemiesL[index].activeSelf){
                 Enemy enemyLogic = enemiesL[index].GetComponent<Enemy>();
+                enemyLogic.OnHit(1000);
+            }
+        }
+
+        for(int index=0; index < enemiesL2.Length; index++){
+            if (enemiesL2[index].activeSelf){
+                Enemy enemyLogic = enemiesL2[index].GetComponent<Enemy>();
                 enemyLogic.OnHit(1000);
             }
         }
@@ -192,6 +333,13 @@ public class Player : MonoBehaviour
             }
         }
 
+        for(int index=0; index < enemiesM2.Length; index++){
+            if (enemiesM2[index].activeSelf){
+                Enemy enemyLogic = enemiesM2[index].GetComponent<Enemy>();
+                enemyLogic.OnHit(1000);
+            }
+        }
+
         for(int index=0; index < enemiesS.Length; index++){
             if (enemiesS[index].activeSelf){
                 Enemy enemyLogic = enemiesS[index].GetComponent<Enemy>();
@@ -199,9 +347,44 @@ public class Player : MonoBehaviour
             }
         }
 
+        for(int index=0; index < enemiesS2.Length; index++){
+            if (enemiesS2[index].activeSelf){
+                Enemy enemyLogic = enemiesS2[index].GetComponent<Enemy>();
+                enemyLogic.OnHit(1000);
+            }
+        }
+
+        for(int index=0; index < enemiesS3.Length; index++){
+            if (enemiesS3[index].activeSelf){
+                Enemy enemyLogic = enemiesS3[index].GetComponent<Enemy>();
+                enemyLogic.OnHit(1000);
+            }
+        }
+
+        for(int index=0; index < enemiesR.Length; index++){
+            if (enemiesR[index].activeSelf){
+                Enemy enemyLogic = enemiesR[index].GetComponent<Enemy>();
+                enemyLogic.OnHit(1000);
+            }
+        }
+
+        for(int index=0; index < enemiesR2.Length; index++){
+            if (enemiesR2[index].activeSelf){
+                Enemy enemyLogic = enemiesR2[index].GetComponent<Enemy>();
+                enemyLogic.OnHit(1000);
+            }
+        }
+
+        
+
         //Remove Enemy Bullet
         GameObject[] bulletsA = objectManager.GetPool("BulletEnemyA");
         GameObject[] bulletsB = objectManager.GetPool("BulletEnemyB");
+
+        GameObject[] bulletsBA = objectManager.GetPool("BulletBossA");
+        GameObject[] bulletsBB = objectManager.GetPool("BulletBossB");
+        GameObject[] bulletsL = objectManager.GetPool("BulletLaser");
+        GameObject[] bulletsL2 = objectManager.GetPool("BulletLaser2");
         
         for(int index=0; index < bulletsA.Length; index++){
             if (bulletsA[index].activeSelf){
@@ -212,6 +395,30 @@ public class Player : MonoBehaviour
         for(int index=0; index < bulletsB.Length; index++){
             if (bulletsB[index].activeSelf){
                 bulletsB[index].SetActive(false);
+            }
+        }
+
+        for(int index=0; index < bulletsBA.Length; index++){
+            if (bulletsBA[index].activeSelf){
+                bulletsBA[index].SetActive(false);
+            }
+        }
+
+        for(int index=0; index < bulletsBB.Length; index++){
+            if (bulletsBB[index].activeSelf){
+                bulletsBB[index].SetActive(false);
+            }
+        }
+
+        for(int index=0; index < bulletsL.Length; index++){
+            if (bulletsL[index].activeSelf){
+                bulletsL[index].SetActive(false);
+            }
+        }
+
+        for(int index=0; index < bulletsL2.Length; index++){
+            if (bulletsL2[index].activeSelf){
+                bulletsL2[index].SetActive(false);
             }
         }
     
@@ -261,21 +468,25 @@ public class Player : MonoBehaviour
             collision.gameObject.SetActive(false);
         }
         else if(collision.gameObject.tag == "Item"){
+
             Item item = collision.gameObject.GetComponent<Item>();
             switch (item.type){
+
                 case "Coin":
+                    SoundManager.PlaySound("coin");
                     score += 1000;
                     break;
                 case "Power":
+                    SoundManager.PlaySound("item");
                     if(power == maxPower)
                         score += 500;
                     else{
                         power++;
                         AddFollower();
                     }
-                        
                     break;
                 case "Boom":
+                    SoundManager.PlaySound("item");
                     if (boom == maxBoom)
                         score += 500;
                     else{
