@@ -376,7 +376,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1566939837}
-        m_MethodName: LoadGame
+        m_MethodName: LoadGame_1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -637,7 +637,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &393952895
 Transform:
   m_ObjectHideFlags: 0
@@ -1224,7 +1224,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &472337760
 Transform:
   m_ObjectHideFlags: 0
@@ -1542,7 +1542,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1566939837}
-        m_MethodName: LoadGame
+        m_MethodName: LoadGame_2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3506,7 +3506,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1566939837}
-        m_MethodName: LoadGame
+        m_MethodName: LoadGame_3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
