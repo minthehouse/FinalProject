@@ -288,10 +288,29 @@ public class GameManager : MonoBehaviour
         gameOverSet.SetActive(true);
     }
 
-    public void GameRetry()
+    public void BackToMain() // this is actually going back to the main scene. (not a restart)
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         SceneManager.LoadScene(0);
     }
 
+    public void Restart()
+    {
+        if (SceneManager.GetActiveScene().buildIndex % 3 == 1)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex % 3 == 2)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -1); 
+        }   
+
+        if (SceneManager.GetActiveScene().buildIndex % 3 == 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -2); 
+        }   
+
+    }
 
 }
