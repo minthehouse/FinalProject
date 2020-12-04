@@ -209,9 +209,9 @@ GameObject:
   - component: {fileID: 47274414}
   - component: {fileID: 47274413}
   - component: {fileID: 47274412}
-  - component: {fileID: 47274416}
   - component: {fileID: 47274415}
   - component: {fileID: 47274417}
+  - component: {fileID: 47274416}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -347,8 +347,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &47274416
-BoxCollider2D:
+--- !u!60 &47274416
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -370,9 +370,32 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.3}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 2.0416667, y: 0}
+      - {x: 2.0833335, y: 0.125}
+      - {x: 2.0833335, y: 0.4166667}
+      - {x: 1.875, y: 0.625}
+      - {x: 1.5416667, y: 0.7916667}
+      - {x: 1.125, y: 0.9583334}
+      - {x: 0.625, y: 0.8333334}
+      - {x: 0.33333334, y: 1}
+      - {x: 0.16666667, y: 1.0416667}
+      - {x: -0.16666667, y: 1.0416667}
+      - {x: -0.5416667, y: 0.7916667}
+      - {x: -1.125, y: 0.875}
+      - {x: -1.5833334, y: 0.7916667}
+      - {x: -2.0833335, y: 0.45833334}
+      - {x: -2.0833335, y: 0.16666667}
+      - {x: -1.9166667, y: -0.083333336}
+      - {x: -1.5, y: -0.375}
+      - {x: -0.9166667, y: -0.4166667}
+      - {x: -0.625, y: -0.25}
+      - {x: -0.125, y: -1.0416667}
+      - {x: 0.125, y: -1.0416667}
+      - {x: 0.5416667, y: -0.33333334}
+      - {x: 1.125, y: -0.4166667}
+      - {x: 1.5, y: -0.2916667}
 --- !u!95 &47274417
 Animator:
   serializedVersion: 3
@@ -2135,6 +2158,10 @@ MonoBehaviour:
   bulletPlayerHPrefab: {fileID: 6236205370793694509, guid: cd13afd1a3b48b04a95bd989a647416c,
     type: 3}
   bulletPlayerH2Prefab: {fileID: 6236205370793694509, guid: 394366b63e7cc744da55675e68c3de18,
+    type: 3}
+  bulletPlayerWPrefab: {fileID: 6236205370793694509, guid: b0f17526707168f4f8f82a00f8228c2e,
+    type: 3}
+  bulletPlayerW2Prefab: {fileID: 6236205370793694509, guid: b6c9dfbecb3dcaa48855fa32e3ab585c,
     type: 3}
   bulletEnemyAPrefab: {fileID: 6236205370793694509, guid: 770b7b2a5fc4ef549bebe84ce3c43f14,
     type: 3}

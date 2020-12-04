@@ -24,6 +24,8 @@ public class ObjectManager : MonoBehaviour
     public GameObject bulletPlayerBPrefab;
     public GameObject bulletPlayerHPrefab;
     public GameObject bulletPlayerH2Prefab;
+    public GameObject bulletPlayerWPrefab;
+    public GameObject bulletPlayerW2Prefab;
     public GameObject bulletEnemyAPrefab;
     public GameObject bulletEnemyBPrefab;
     public GameObject bulletFollowerPrefab;
@@ -57,6 +59,8 @@ public class ObjectManager : MonoBehaviour
     GameObject[] bulletPlayerB;
     GameObject[] bulletPlayerH;
     GameObject[] bulletPlayerH2;
+    GameObject[] bulletPlayerW;
+    GameObject[] bulletPlayerW2;
     GameObject[] bulletEnemyA;
     GameObject[] bulletEnemyB;
     GameObject[] bulletFollower;
@@ -93,6 +97,8 @@ public class ObjectManager : MonoBehaviour
         bulletPlayerB = new GameObject[100];
         bulletPlayerH = new GameObject[100];
         bulletPlayerH2 = new GameObject[100];
+        bulletPlayerW = new GameObject[100];
+        bulletPlayerW2 = new GameObject[100];
         bulletEnemyA = new GameObject[100];
         bulletEnemyB = new GameObject[100];
         bulletFollower = new GameObject[100];
@@ -203,6 +209,16 @@ public class ObjectManager : MonoBehaviour
             bulletPlayerH2[index].SetActive(false);
         }
 
+        for(int index=0; index < bulletPlayerW.Length; index++ ){
+            bulletPlayerW[index] = Instantiate(bulletPlayerWPrefab);
+            bulletPlayerW[index].SetActive(false);
+        }
+
+        for(int index=0; index < bulletPlayerW2.Length; index++ ){
+            bulletPlayerW2[index] = Instantiate(bulletPlayerW2Prefab);
+            bulletPlayerW2[index].SetActive(false);
+        }
+
         for(int index=0; index < bulletEnemyA.Length; index++ ){
             bulletEnemyA[index] = Instantiate(bulletEnemyAPrefab);
             bulletEnemyA[index].SetActive(false);
@@ -306,6 +322,12 @@ public class ObjectManager : MonoBehaviour
             case "BulletPlayerH2":
                 targetPool = bulletPlayerH2;
                 break;
+            case "BulletPlayerW":
+                targetPool = bulletPlayerW;
+                break;
+            case "BulletPlayerW2":
+                targetPool = bulletPlayerW2;
+                break;
             case "BulletEnemyA":
                 targetPool = bulletEnemyA;
                 break;
@@ -403,6 +425,12 @@ public class ObjectManager : MonoBehaviour
                 break;
             case "BulletPlayerH2":
                 targetPool = bulletPlayerH2;
+                break;
+            case "BulletPlayerW":
+                targetPool = bulletPlayerW;
+                break;
+            case "BulletPlayerW2":
+                targetPool = bulletPlayerW2;
                 break;
             case "BulletEnemyA":
                 targetPool = bulletEnemyA;

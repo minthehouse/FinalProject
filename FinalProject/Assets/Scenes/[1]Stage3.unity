@@ -2371,6 +2371,10 @@ MonoBehaviour:
     type: 3}
   bulletPlayerH2Prefab: {fileID: 6236205370793694509, guid: 394366b63e7cc744da55675e68c3de18,
     type: 3}
+  bulletPlayerWPrefab: {fileID: 6236205370793694509, guid: b0f17526707168f4f8f82a00f8228c2e,
+    type: 3}
+  bulletPlayerW2Prefab: {fileID: 6236205370793694509, guid: b6c9dfbecb3dcaa48855fa32e3ab585c,
+    type: 3}
   bulletEnemyAPrefab: {fileID: 6236205370793694509, guid: 770b7b2a5fc4ef549bebe84ce3c43f14,
     type: 3}
   bulletEnemyBPrefab: {fileID: 6236205370793694509, guid: 0114fa0e892355b4ca3b99f5b8838ee6,
